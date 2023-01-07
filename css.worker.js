@@ -4740,7 +4740,7 @@ const win32 = {
                 // absolute path, get cwd for that drive, or the process cwd if
                 // the drive cwd is not available. We're sure the device is not
                 // a UNC path at this points, because UNC paths are always absolute.
-                path = ({"NODE_ENV":"development","BASE_URL":"game-tools/"})[`=${resolvedDevice}`] || _process_js__WEBPACK_IMPORTED_MODULE_0__.cwd();
+                path = ({"NODE_ENV":"development","BASE_URL":""})[`=${resolvedDevice}`] || _process_js__WEBPACK_IMPORTED_MODULE_0__.cwd();
                 // Verify that a cwd was found and that it actually points
                 // to our drive. If not, default to the drive's root.
                 if (path === undefined ||
@@ -6158,8 +6158,8 @@ else if (typeof process !== 'undefined') {
     safeProcess = {
         get platform() { return process.platform; },
         get arch() { return process.arch; },
-        get env() { return ({"NODE_ENV":"development","BASE_URL":"game-tools/"}); },
-        cwd() { return ({"NODE_ENV":"development","BASE_URL":"game-tools/"})['VSCODE_CWD'] || process.cwd(); }
+        get env() { return ({"NODE_ENV":"development","BASE_URL":""}); },
+        cwd() { return ({"NODE_ENV":"development","BASE_URL":""})['VSCODE_CWD'] || process.cwd(); }
     };
 }
 // Web environment

@@ -8644,7 +8644,7 @@ module.exports = __webpack_require__.p + "fonts/default.b59774de.ttf";
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	!function() {
-/******/ 		__webpack_require__.p = "game-tools/";
+/******/ 		__webpack_require__.p = "";
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */

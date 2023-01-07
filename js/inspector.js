@@ -2510,7 +2510,7 @@ module.exports = __webpack_require__.p + "img/unknow.a0949fd1.svg";
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	!function() {
-/******/ 		__webpack_require__.p = "game-tools/";
+/******/ 		__webpack_require__.p = "";
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
